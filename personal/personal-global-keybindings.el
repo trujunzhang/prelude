@@ -10,4 +10,5 @@
 (global-set-key (kbd "C-c w")  'project-explorer-open)
 
 
+
 (provide 'personal-global-keybindings)
