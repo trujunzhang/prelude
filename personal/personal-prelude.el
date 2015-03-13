@@ -10,6 +10,10 @@
 (flx-ido-mode -1)
 
 
+;; yasnippet
+(require 'yasnippet)
+(yas-global-mode 1)
+
 
 
 (provide 'personal-prelude)

@@ -18,5 +18,8 @@
 (toggle-frame-fullscreen)
 
 
+;; show line number
+(global-linum-mode t)
+
 (provide 'djzhang)
 ;;; prelude-djzhang.el ends here

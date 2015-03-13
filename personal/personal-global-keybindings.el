@@ -10,5 +10,7 @@
 (global-set-key (kbd "C-c w")  'project-explorer-open)
 
 
+(global-set-key [f9] 'package-list-packages-no-fetch)
+
 
 (provide 'personal-global-keybindings)
