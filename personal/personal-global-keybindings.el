@@ -7,10 +7,7 @@
 (message "personal-global-keybinding..............")
 
 
-(global-set-key (kbd "C-c w")  'project-explorer-open)
-
-
-(global-set-key [f9] 'package-list-packages-no-fetch)
+(global-set-key [f9] 'project-explorer-open)
 
 
 (provide 'personal-global-keybindings)
