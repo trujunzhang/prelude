@@ -15,5 +15,11 @@
 (yas-global-mode 1)
 
 
+;;; guide-key
+(setq guide-key/guide-key-sequence '("C-x r" "C-x 4"))
+(guide-key-mode 1)  ; Enable guide-key-mode
+(setq guide-key/highlight-command-regexp "rectangle")
+
+
 
 (provide 'personal-prelude)
