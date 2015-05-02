@@ -37,6 +37,11 @@
 
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
+(add-to-list 'package-archives
+;;             '("org" . "http://orgmode.org/elpa/"))
+;;               '("gnu" . "http://elpa.gnu.org/packages/") t)
+;;               '("melpa" . "http://melpa.milkbox.net/packages/") t)
+                 '("ELPA" . "http://tromey.com/elpa/") t)
 ;; set package-user-dir to be relative to Prelude install path
 (setq package-user-dir (expand-file-name "elpa" prelude-dir))
 (package-initialize)

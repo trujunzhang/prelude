@@ -72,3 +72,6 @@ crashlytics-build.properties
 
 # djzhang's customize plugins
 .emacs.desktop
+image-dired/
+.mc-lists.el
+emms/

@@ -1,0 +1,3 @@
+*  Used Emacs Package list
+** https://github.com/knu/mc-extras.el
+** https://github.com/mhayashi1120/Emacs-image-diredx/raw/master/image-dired+.el
