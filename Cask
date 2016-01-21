@@ -34,6 +34,7 @@
 
 ;; editor
 (depends-on "real-auto-save")
+(depends-on "multiple-cursors")
 
 (depends-on "rvm")
 

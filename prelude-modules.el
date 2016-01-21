@@ -42,4 +42,5 @@
 (require 'prelude-yasnippet)
 
 ;; Customize prelude
-(require 'prelude-customize)
+(require 'djzhang-customize)
+(require 'djzhang-editor)

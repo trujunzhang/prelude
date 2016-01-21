@@ -81,6 +81,6 @@
 ;;(setq real-auto-save-interval 6) ;; in seconds
 
 
-(provide 'prelude-customize)
+(provide 'djzhang-customize)
 
-;;; prelude-customize.el ends here
+;;; djzhang-customize.el ends here
