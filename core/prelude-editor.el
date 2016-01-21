@@ -263,6 +263,7 @@ The body of the advice is in BODY."
 (setq avy-background t)
 (setq avy-style 'at-full)
 
+;; TODO: djzhang
 ;; anzu-mode enhances isearch & query-replace by showing total matches and current match position
 ;; (require 'anzu)
 ;; (diminish 'anzu-mode)
@@ -340,10 +341,11 @@ indent yanked text (with prefix arg don't indent)."
 ;; .zsh file is shell script too
 (add-to-list 'auto-mode-alist '("\\.zsh\\'" . shell-script-mode))
 
+;; TODO: djzhang
 ;; whitespace-mode config
-(require 'whitespace)
-(setq whitespace-line-column 80) ;; limit line length
-(setq whitespace-style '(face tabs empty trailing lines-tail))
+;; (require 'whitespace)
+;; (setq whitespace-line-column 80) ;; limit line length
+;; (setq whitespace-style '(face tabs empty trailing lines-tail))
 
 ;; saner regex syntax
 (require 're-builder)
