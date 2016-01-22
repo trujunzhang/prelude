@@ -1,6 +1,6 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: import
-# key: simp
+# name: modules
+# key: smd
 # binding: direct-keybinding
 # --
-@import "$0";
+@modules "$0";

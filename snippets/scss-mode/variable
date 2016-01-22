@@ -1,4 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: variable
-# key: var
+# key: svar
+# binding: direct-keybinding
 # --
-$
+$$0;
