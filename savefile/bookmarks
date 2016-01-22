@@ -1,0 +1,35 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("snippets"
+ (filename . "~/.emacs.d/snippets/")
+ (front-context-string . "c-mode\n  drwxr-x")
+ (rear-context-string . "80 Jan 20 08:14 ")
+ (position . 305))
+("sassycompass"
+ (filename . "~/Movies/Lynda/Lynda - Responsive CSS with Sass and Compass/Exercise/Ex_Files_CSS_N_Sass/exercise files/06_07/working folder/sassycompass/")
+ (front-context-string . "_\n  -rwxrwxrwx  ")
+ (rear-context-string . "70 Oct 25  2013 ")
+ (position . 357))
+("prelude-website.el"
+ (filename . "~/.emacs.d/modules/prelude-website.el")
+ (front-context-string . ";;; prelude-c.el")
+ (rear-context-string)
+ (position . 1))
+("styles.scss"
+ (filename . "/Applications/MAMP/htdocs/Responsive CSS with Sass and Compass/_/components/sass/styles.scss")
+ (front-context-string)
+ (rear-context-string)
+ (position . 10))
+("init.el"
+ (filename . "~/.emacs.d/init.el")
+ (front-context-string . ";;; init.el --- ")
+ (rear-context-string)
+ (position . 1))
+("Responsive CSS with Sass and Compass"
+ (filename . "/Applications/MAMP/htdocs/Responsive CSS with Sass and Compass/")
+ (front-context-string . ".DS_Store\n  drwx")
+ (rear-context-string . "48 Jan 21 12:27 ")
+ (position . 272))
+)

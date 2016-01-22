@@ -14,7 +14,9 @@ ede-projects.el
 custom.el
 places
 .smex-items
-savefile/
+savefile/projectile.cache
+savefile/.smex-items
+savefile/ido.hist
 
 projectile-bookmarks.eld
 session*
