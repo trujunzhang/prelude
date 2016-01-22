@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("snippets"
+(("Lynda - Responsive CSS with Sass and Compass"
+ (filename . "~/Movies/Lynda/Lynda - Responsive CSS with Sass and Compass/")
+ (front-context-string . ".DS_Store\n  drwx")
+ (rear-context-string . "48 Jan 23 05:11 ")
+ (position . 282))
+("snippets"
  (filename . "~/.emacs.d/snippets/")
  (front-context-string . "c-mode\n  drwxr-x")
  (rear-context-string . "80 Jan 20 08:14 ")

@@ -1,0 +1,2 @@
+;;; .emms-cache -*- mode: emacs-lisp; coding: utf-8; -*-
+(puthash "/Users/djzhang/Movies/Lynda/Lynda - Responsive CSS with Sass and Compass/1. Getting Started/140777_01_01_XR15_WhatisSass.mp4" '(*track* (type . file) (name . "/Users/djzhang/Movies/Lynda/Lynda - Responsive CSS with Sass and Compass/1. Getting Started/140777_01_01_XR15_WhatisSass.mp4") (metadata) (info-mtime 22167 25397 0 0)) emms-cache-db)

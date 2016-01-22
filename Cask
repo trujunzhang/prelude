@@ -41,6 +41,11 @@
 ;; web
 (depends-on "emmet-mode")
 
+;; osx
+(depends-on "w3m")
+(depends-on "emms")
+
+
 
 
 
