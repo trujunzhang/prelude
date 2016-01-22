@@ -6,7 +6,7 @@
 (setq emms-stream-bookmarks-file "~/.emacs.d/emms/emms-streams")
 (setq emms-history-file "~/.emacs.d/emms/emms-history")
 (setq emms-cache-file "~/.emacs.d/emms/emms-cache")
-(setq emms-source-file-default-directory "/home/thierry/Musique")
+(setq emms-source-file-default-directory "/Users/djzhang/Movies/Lynda")
 
 (emms-devel)
 (emms-default-players)

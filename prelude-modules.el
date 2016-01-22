@@ -48,6 +48,7 @@
 ;; https://github.com/thierryvolpiatto/emacs-tv-config
 (require 'config-w3m)
 (require 'emms-vlc-config)
+(require 'dired-extension)
 
 ;; osx
 (require 'djzhang-osx)
