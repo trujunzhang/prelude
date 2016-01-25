@@ -40,6 +40,7 @@
 
 ;; web
 (depends-on "emmet-mode")
+(depends-on "elpy")
 
 ;; osx
 (depends-on "w3m")
