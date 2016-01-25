@@ -39,7 +39,7 @@
 ;; (require 'prelude-yaml)
 
 ;; Cask packages manager
-(require 'prelude-yasnippet)
+(require 'djzhang-yasnippet)
 
 ;; Customize prelude
 (require 'djzhang-customize)

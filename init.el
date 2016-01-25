@@ -136,4 +136,7 @@ by Prelude.")
  ;; greet the use with some useful tip
  (run-at-time 5 nil 'prelude-tip-of-the-day))
 
+;; https://github.com/trujunzhang/emacs-for-python
+;; (load-file "/Users/djzhang/.emacs.d/emacs-for-python/epy-init.el")
+
 ;;; init.el ends here

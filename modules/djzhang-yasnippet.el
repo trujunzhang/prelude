@@ -51,6 +51,6 @@
 
 (message "djzhang's yasnippet")
 
-(provide 'prelude-yasnippet)
+(provide 'djzhang-yasnippet)
 
-;;; prelude-yasnippet.el ends here
+;;; djzhang-yasnippet.el ends here

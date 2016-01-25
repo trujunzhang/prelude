@@ -2,7 +2,37 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Lynda - Responsive CSS with Sass and Compass"
+(("scrape"
+ (filename . "~/Desktop/github/pythonapps/new-coder/scrape/")
+ (front-context-string)
+ (rear-context-string . " Jan 25 17:32 ..")
+ (position . 211))
+("myIonicApp"
+ (filename . "~/Desktop/github/javascriptapps/myIonicApp/")
+ (front-context-string . ".bowerrc\n  -rw-r")
+ (rear-context-string . "29 Jan 24 16:07 ")
+ (position . 266))
+("todo"
+ (filename . "~/Desktop/github/javascriptapps/todo/")
+ (front-context-string . ".bowerrc\n  -rw-r")
+ (rear-context-string . "29 Jan 24 14:34 ")
+ (position . 260))
+("parse_admin"
+ (filename . "/Applications/MAMP/htdocs/parse_admin/")
+ (front-context-string . "css\n  drwxr-xr-x")
+ (rear-context-string . "68 Jan 24 10:41 ")
+ (position . 360))
+("HelloWorld"
+ (filename . "~/Desktop/github/trujunzhang/HelloWorld/")
+ (front-context-string . ".git\n  -rw-r--r-")
+ (rear-context-string . "74 Jan 23 20:31 ")
+ (position . 259))
+("IEATTA-APPLE-ANDROID"
+ (filename . "~/Desktop/upwork-projects/IEATTA/IEATTA-APPLE-ANDROID/")
+ (front-context-string . ".DS_Store\n  drwx")
+ (rear-context-string . "48 Jan 18 10:39 ")
+ (position . 277))
+("Lynda - Responsive CSS with Sass and Compass"
  (filename . "~/Movies/Lynda/Lynda - Responsive CSS with Sass and Compass/")
  (front-context-string . ".DS_Store\n  drwx")
  (rear-context-string . "48 Jan 23 05:11 ")

@@ -81,3 +81,8 @@ crashlytics-build.properties
 *.fasl
 *.lisp-temp
 
+eproject.lst
+ac-comphist.dat
+
+emacs-for-python/
+anaconda-mode/
