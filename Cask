@@ -43,7 +43,7 @@
 (depends-on "elpy")
 
 ;; osx
-(depends-on "w3m")
+(depends-on "w3m" :git "git@github.com:rejeep/w3m.git" :branch "cask")
 (depends-on "emms")
 
 
