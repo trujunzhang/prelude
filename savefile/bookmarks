@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("scrape"
+(("iTunesBrowser"
+ (filename . "~/Desktop/github/nativeapps/iTunesBrowser/")
+ (front-context-string)
+ (rear-context-string . "98 Jan 26 16:31 ")
+ (position . 257))
+("scrape"
  (filename . "~/Desktop/github/pythonapps/new-coder/scrape/")
  (front-context-string)
  (rear-context-string . " Jan 25 17:32 ..")
@@ -23,10 +28,10 @@
  (rear-context-string . "68 Jan 24 10:41 ")
  (position . 360))
 ("HelloWorld"
- (filename . "~/Desktop/github/trujunzhang/HelloWorld/")
- (front-context-string . ".git\n  -rw-r--r-")
- (rear-context-string . "74 Jan 23 20:31 ")
- (position . 259))
+ (filename . "~/Desktop/github/nativeapps/Helloworld/")
+ (front-context-string . ".flowconfig\n  -r")
+ (rear-context-string . "06 Jan 26 15:23 ")
+ (position . 268))
 ("IEATTA-APPLE-ANDROID"
  (filename . "~/Desktop/upwork-projects/IEATTA/IEATTA-APPLE-ANDROID/")
  (front-context-string . ".DS_Store\n  drwx")

@@ -49,7 +49,14 @@
 (require 'yasnippet)
 (yas-global-mode 1)
 
-(message "djzhang's yasnippet")
+(defun create-snippet (filename)
+  (interactive "s")
+  (let ((mode (symbol-name major-mode)))
+    (find-file (format "~/.emacs.d/snippets/%s/%s" mode filename))
+    (snippet-mode)))
+
+(global-set-key (kbd "M-'") 'create-snippet)
+
 
 (provide 'djzhang-yasnippet)
 

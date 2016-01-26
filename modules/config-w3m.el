@@ -50,7 +50,7 @@
 
 ;; Remove-trailing-white-space-in-w3m-buffers 
 (add-hook 'w3m-display-hook
-          #'(lambda (url)
+          '(lambda (url)
               (let ((buffer-read-only nil))
                 (delete-trailing-whitespace))))
 
