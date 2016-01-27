@@ -44,6 +44,7 @@
 ;; Customize prelude
 (require 'djzhang-customize)
 (require 'djzhang-editor)
+(require 'djzhang-editorconfig)
 
 ;; https://github.com/thierryvolpiatto/emacs-tv-config
 (require 'config-w3m)
