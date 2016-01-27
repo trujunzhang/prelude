@@ -1,3 +1,7 @@
+(prelude-require-packages '(w3m))
+
+(require 'w3m-load)
+
 ;;; .emacs-config-w3m.el -- config w3m for thievol
 
 ;; Code:

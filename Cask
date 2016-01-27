@@ -12,7 +12,7 @@
 (depends-on "flycheck-cask")
 (depends-on "htmlize")
 (depends-on "idle-highlight-mode")
-(depends-on "magit")
+;; (depends-on "magit")
 (depends-on "multiple-cursors")
 (depends-on "nyan-mode")
 (depends-on "pallet")
@@ -44,7 +44,7 @@
 (depends-on "elpy")
 
 ;; osx
-(depends-on "w3m" :git "git@github.com:rejeep/w3m.git" :branch "cask")
+;;(depends-on "w3m")
 (depends-on "emms")
 
 

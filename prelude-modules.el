@@ -25,8 +25,8 @@
 ;; (require 'prelude-latex)
 (require 'prelude-lisp)
 ;; (require 'prelude-ocaml)
-(require 'prelude-org) ;; Org-mode helps you keep TODO lists, notes and more
-(require 'prelude-perl)
+;; (require 'prelude-org) ;; Org-mode helps you keep TODO lists, notes and more
+;; (require 'prelude-perl)
 (require 'prelude-python)
 (require 'prelude-ruby)
 ;; (require 'prelude-scala)
@@ -46,7 +46,7 @@
 (require 'djzhang-editor)
 
 ;; https://github.com/thierryvolpiatto/emacs-tv-config
-;;(require 'config-w3m)
+(require 'config-w3m)
 (require 'emms-vlc-config)
 (require 'dired-extension)
 
