@@ -41,24 +41,31 @@
 
 ;; python-djzhango
 ;; http://web.archive.org/web/20131010005338/http://from-the-cloud.com/en/emacs/2013/01/28_emacs-as-a-django-ide-with-python-djangoel.html
-(require 'python-django)
-(global-set-key (kbd "C-x j") 'python-django-open-project)
-
-;; ((python-mode
-;;   (python-shell-interpreter . "python")
-;;   (python-shell-interpreter-args . "/home/fgallina/Code/Projects/anue-site/anue/manage.py shell")
-;;   (python-shell-prompt-regexp . "In \\[[0-9]+\\]: ")
-;;   (python-shell-prompt-output-regexp . "Out\\[[0-9]+\\]: ")
-;;   (python-shell-completion-setup-code . "from IPython.core.completerlib import module_completion")
-;;   (python-shell-completion-module-string-code . "';'.join(module_completion('''%s'''))\n")
-;;   (python-shell-completion-string-code . "';'.join(get_ipython().Completer.all_completions('''%s'''))\n")
-;;   (python-shell-extra-pythonpaths "/home/fgallina/Code/Projects/anue-site/anue/apps/")
-;;   (python-shell-virtualenv-path . "/home/fgallina/.virtualenvs/anue")))
+;;(require 'python-django)
+;;(global-set-key (kbd "C-x j") 'python-django-open-project)
 
 
 ;;(require 'pyenv-mode-auto)
 
 (require 'celery)
+
+(defun shell-command-on-buffer ()
+  "Asks for a command and executes it in inferior shell with current buffer
+as input."
+  (interactive)
+  (shell-command-on-region
+   (point-min) (point-max)
+   (read-shell-command "Shell command on buffer: ")))
+
+(defun blog-example ()
+  (interactive)
+  (with-output-to-temp-buffer "*blog-example*"
+    (shell-command "echo djzhang is an example"
+                   "*blog-example*"
+                   "*Messages*")
+    (pop-to-buffer "*blog-example*")))
+
+(global-set-key (kbd "<f5>") 'blog-example)
 
 (provide 'djzhang-python)
 

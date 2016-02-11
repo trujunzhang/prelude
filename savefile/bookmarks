@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("01"
+(("02"
+ (filename . "~/.emacs.d/modules/djzhang-python.el")
+ (front-context-string . "ension for the E")
+ (rear-context-string . "; Elpy is an ext")
+ (position . 1190))
+("01"
  (filename . "~/PycharmProjects/celery-djzhang/step01/tasks.py")
  (front-context-string . "def add(x,y):\n  ")
  (rear-context-string . "//')\n\n@app.task\n")
