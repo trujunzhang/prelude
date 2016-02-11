@@ -77,7 +77,13 @@ as input."
     ;; end of celery-tasks-info
     )
 
-(global-set-key (kbd "<f5>") 'celery-tasks-info)
+
+(defun shell-dir (name dir)
+  (interactive "sShell name: \nDDirectory: ")
+  (let ((default-directory dir))
+    (shell name)))
+
+(global-set-key (kbd "<f5>") 'shell-dir)
 
 (provide 'djzhang-python)
 
