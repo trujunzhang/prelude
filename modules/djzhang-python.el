@@ -60,12 +60,24 @@ as input."
 (defun blog-example ()
   (interactive)
   (with-output-to-temp-buffer "*blog-example*"
-    (shell-command "echo djzhang is an example"
+    (shell-command "celery -A tasks worker --loglevel=info"
                    "*blog-example*"
                    "*Messages*")
     (pop-to-buffer "*blog-example*")))
 
-(global-set-key (kbd "<f5>") 'blog-example)
+  (defun celery-tasks-info ()
+    "Running the celery worker server."
+    (interactive)
+    ;;(setq javac-command (concat "javac -cp " javac-classpath " " buffer-file-name))
+    (setq celery-task-type "tasks worker")
+    (setq log-level "--loglevel=info")
+    (setq celery-command (concat "celery -A " celery-task-type " " log-level))
+    ;;(setq celery-command ("celery -A tasks worker --loglevel=info")) ;; You now run the worker by executing our program with the worker argument:
+    (shell-command celery-command)
+    ;; end of celery-tasks-info
+    )
+
+(global-set-key (kbd "<f5>") 'celery-tasks-info)
 
 (provide 'djzhang-python)
 
