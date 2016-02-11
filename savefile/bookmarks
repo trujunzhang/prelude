@@ -2,7 +2,27 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("iTunesBrowser"
+(("celery-djzhang"
+ (filename . "~/PycharmProjects/celery-djzhang/")
+ (front-context-string)
+ (rear-context-string . "10 Feb 11 12:12 ")
+ (position . 199))
+("tutorial"
+ (filename . "~/Desktop/github/pythonapps/tutorial/")
+ (front-context-string . "scrapy.cfg\n  drw")
+ (rear-context-string . "60 Jan 28 13:42 ")
+ (position . 253))
+("Specs"
+ (filename . "~/.cocoapods/repos/master/Specs/")
+ (front-context-string . "120301\n  drwxr-x")
+ (rear-context-string . "40 Jan  9 07:56 ")
+ (position . 268))
+("javascriptexamples"
+ (filename . "~/WebstormProjects/javascriptexamples/")
+ (front-context-string)
+ (rear-context-string . "72 Jan 27 10:50 ")
+ (position . 256))
+("iTunesBrowser"
  (filename . "~/Desktop/github/nativeapps/iTunesBrowser/")
  (front-context-string)
  (rear-context-string . "98 Jan 26 16:31 ")

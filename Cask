@@ -39,6 +39,16 @@
 
 (depends-on "rvm")
 
+;; python-ide
+(depends-on "pyenv-mode")
+(depends-on "pyenv-mode-auto")
+(depends-on "celery")
+(depends-on "python-django")
+(depends-on "django-manage")
+(depends-on "django-mode")
+(depends-on "django-snippets")
+
+
 ;; web
 (depends-on "emmet-mode")
 (depends-on "elpy")

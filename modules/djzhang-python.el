@@ -37,9 +37,27 @@
 
 ;; Elpy is an extension for the Emacs text editor to work with Python projects.
 ;; This documentation tries to explain how to use Elpy to work on Python project using Emacs, but it does not aim to be an introduction to either Emacs or Python.
-(elpy-enable)
+;;(elpy-enable)
+
+;; python-djzhango
+;; http://web.archive.org/web/20131010005338/http://from-the-cloud.com/en/emacs/2013/01/28_emacs-as-a-django-ide-with-python-djangoel.html
+(require 'python-django)
+(global-set-key (kbd "C-x j") 'python-django-open-project)
+
+;; ((python-mode
+;;   (python-shell-interpreter . "python")
+;;   (python-shell-interpreter-args . "/home/fgallina/Code/Projects/anue-site/anue/manage.py shell")
+;;   (python-shell-prompt-regexp . "In \\[[0-9]+\\]: ")
+;;   (python-shell-prompt-output-regexp . "Out\\[[0-9]+\\]: ")
+;;   (python-shell-completion-setup-code . "from IPython.core.completerlib import module_completion")
+;;   (python-shell-completion-module-string-code . "';'.join(module_completion('''%s'''))\n")
+;;   (python-shell-completion-string-code . "';'.join(get_ipython().Completer.all_completions('''%s'''))\n")
+;;   (python-shell-extra-pythonpaths "/home/fgallina/Code/Projects/anue-site/anue/apps/")
+;;   (python-shell-virtualenv-path . "/home/fgallina/.virtualenvs/anue")))
 
 
-(provide 'djzhang-osx)
+;;(require 'pyenv-mode-auto)
 
-;;; djzhang-osx.el ends here
+(provide 'djzhang-python)
+
+;;; djzhang-python.el ends here
