@@ -58,6 +58,8 @@
 
 ;;(require 'pyenv-mode-auto)
 
+(require 'celery)
+
 (provide 'djzhang-python)
 
 ;;; djzhang-python.el ends here
