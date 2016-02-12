@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("django-angular"
+(("examples"
+ (filename . "~/PycharmProjects/django-angular/examples/")
+ (front-context-string . ".coveragerc\n  -r")
+ (rear-context-string . "66 Feb 12 21:36 ")
+ (position . 272))
+("django-angular"
  (filename . "~/PycharmProjects/django-angular/")
  (front-context-string . ".git\n  -rw-r--r-")
  (rear-context-string . "08 Feb 12 21:36 ")
