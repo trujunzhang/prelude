@@ -57,6 +57,8 @@
 ;;(depends-on "w3m")
 (depends-on "emms")
 
+(depends-on "ecb")
+
 
 
 

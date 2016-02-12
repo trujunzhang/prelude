@@ -49,6 +49,30 @@
 
 ;; To get out of multiple-cursors-mode, press <return> or C-g. The latter will first disable multiple regions before disabling multiple cursors. If you want to insert a newline in multiple-cursors-mode, use C-j.
 
+(require 'ecb)
+
+(setq ecb-tip-of-the-day nil)
+
+;; http://ecb.sourceforge.net/docs/Changing-the-ECB-layout.html
+(setq ecb-layout-name "left-symboldef")
+(setq ecb-show-sources-in-directories-buffer 'always)
+
+(setq ecb-compile-window-height 12)
+
+;;; activate and deactivate ecb
+(global-set-key (kbd "C-x C-;") 'ecb-activate)
+(global-set-key (kbd "C-x C-'") 'ecb-deactivate)
+;;; show/hide ecb window
+(global-set-key (kbd "C-;") 'ecb-show-ecb-windows)
+(global-set-key (kbd "C-'") 'ecb-hide-ecb-windows)
+;;; quick navigation between ecb windows
+(global-set-key (kbd "C-)") 'ecb-goto-window-edit1)
+(global-set-key (kbd "C-!") 'ecb-goto-window-directories)
+(global-set-key (kbd "C-@") 'ecb-goto-window-sources)
+(global-set-key (kbd "C-#") 'ecb-goto-window-methods)
+(global-set-key (kbd "C-$") 'ecb-goto-window-compilation)
+
+
 (provide 'djzhang-editor)
 
 ;;; djzhang-editor.el ends here
