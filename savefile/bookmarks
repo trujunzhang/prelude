@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("djzhang-editor.el"
+(("django-angular"
+ (filename . "~/PycharmProjects/django-angular/")
+ (front-context-string . ".git\n  -rw-r--r-")
+ (rear-context-string . "08 Feb 12 21:36 ")
+ (position . 256))
+("djzhang-editor.el"
  (filename . "~/.emacs.d/modules/djzhang-editor.el")
  (front-context-string . "\n(global-set-key")
  (rear-context-string . "\n\n(require 'ecb)")
