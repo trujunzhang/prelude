@@ -54,7 +54,8 @@
 (setq ecb-tip-of-the-day nil)
 
 ;; http://ecb.sourceforge.net/docs/Changing-the-ECB-layout.html
-(setq ecb-layout-name "left-symboldef")
+;; (setq ecb-layout-name "left-symboldef") 
+(setq ecb-layout-name 'left7)
 (setq ecb-show-sources-in-directories-buffer 'always)
 
 (setq ecb-compile-window-height 12)

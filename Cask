@@ -30,6 +30,7 @@
 ;; themes
 (depends-on "zenburn-theme")
 (depends-on "peacock-theme")
+(depends-on "ample-theme")
 (depends-on "color-theme-sanityinc-tomorrow")
 
 ;; editor

@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("examples"
+(("wikipedia-ios-alphas-5.0.0.691"
+ (filename . "~/Desktop/github/trujunzhang/wikipedia/wikipedia-ios-alphas-5.0.0.691/")
+ (front-context-string . ".DS_Store\n  -rw-")
+ (rear-context-string . "48 Feb 13 21:56 ")
+ (position . 296))
+("apps-android-wikipedia"
+ (filename . "~/Desktop/github/trujunzhang/wikipedia/apps-android-wikipedia/")
+ (front-context-string . ".git\n  -rw-r--r-")
+ (rear-context-string . "08 Feb 13 21:40 ")
+ (position . 288))
+("examples"
  (filename . "~/PycharmProjects/django-angular/examples/")
  (front-context-string . ".coveragerc\n  -r")
  (rear-context-string . "66 Feb 12 21:36 ")
