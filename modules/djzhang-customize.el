@@ -32,7 +32,8 @@
 
 ;;; Code:
 
-(setq prelude-theme 'peacock-theme)
+;;(setq prelude-theme 'peacock-theme)
+(setq prelude-theme 'ample-theme)
 
 
 ;; Disabling key-chords
