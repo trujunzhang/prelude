@@ -49,6 +49,9 @@
 (depends-on "django-mode")
 (depends-on "django-snippets")
 
+;; java
+(depends-on "jdee")
+
 
 ;; web
 (depends-on "emmet-mode")

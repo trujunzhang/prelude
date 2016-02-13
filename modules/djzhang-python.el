@@ -85,6 +85,8 @@ as input."
 
 (global-set-key (kbd "<f5>") 'shell-dir)
 
+(require 'jdee)
+
 (provide 'djzhang-python)
 
 ;;; djzhang-python.el ends here
