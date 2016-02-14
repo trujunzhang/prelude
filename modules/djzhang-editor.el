@@ -74,6 +74,7 @@
  ;;'(ecb-layout-window-sizes (quote (("left7" (0.2564102564102564 . 0.6949152542372882) (0.2564102564102564 . 0.23728813559322035)))))
  ;;'(ecb-options-version "2.40")
  ;;'(ecb-source-path (quote ("d:/myRailsProject" "d:/useful scripts")))
+ '(ecb-source-path (quote ("/Users/djzhang/Desktop/github" "/Users/djzhang/.emacs.d"))) 
  '(ecb-primary-secondary-mouse-buttons (quote mouse-1--C-mouse-1))
  '(ecb-tip-of-the-day nil)
  '(ecb-tree-buffer-style (quote ascii-guides)))
