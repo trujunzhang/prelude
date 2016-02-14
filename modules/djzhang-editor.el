@@ -50,13 +50,34 @@
 ;; To get out of multiple-cursors-mode, press <return> or C-g. The latter will first disable multiple regions before disabling multiple cursors. If you want to insert a newline in multiple-cursors-mode, use C-j.
 
 (require 'ecb)
+;;(require 'ecb-autoloads)
+
+;; Enable EDE (Project Management) features
+(global-ede-mode 1)
+
+;; * This enables some tools useful for coding, such as summary mode
+;;   imenu support, and the semantic navigator
 
 (setq ecb-tip-of-the-day nil)
 
 ;; http://ecb.sourceforge.net/docs/Changing-the-ECB-layout.html
 ;; (setq ecb-layout-name "left-symboldef") 
-(setq ecb-layout-name 'left7)
+;;(setq ecb-layout-name 'left7)
 (setq ecb-show-sources-in-directories-buffer 'always)
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(ecb-layout-name "left7")
+ ;;'(ecb-layout-window-sizes (quote (("left7" (0.2564102564102564 . 0.6949152542372882) (0.2564102564102564 . 0.23728813559322035)))))
+ ;;'(ecb-options-version "2.40")
+ ;;'(ecb-source-path (quote ("d:/myRailsProject" "d:/useful scripts")))
+ '(ecb-primary-secondary-mouse-buttons (quote mouse-1--C-mouse-1))
+ '(ecb-tip-of-the-day nil)
+ '(ecb-tree-buffer-style (quote ascii-guides)))
+
 
 (setq ecb-compile-window-height 12)
 
