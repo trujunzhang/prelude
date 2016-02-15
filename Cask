@@ -64,6 +64,7 @@
 (depends-on "ecb")
 
 (depends-on "elfeed")
+(depends-on "restclient")
 
 
 
