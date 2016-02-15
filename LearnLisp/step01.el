@@ -58,3 +58,6 @@
 
 
 (multiply-by-seven 3)
+
+(require 'w3m)
+
