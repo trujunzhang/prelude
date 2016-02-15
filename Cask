@@ -63,6 +63,8 @@
 
 (depends-on "ecb")
 
+(depends-on "elfeed")
+
 
 
 

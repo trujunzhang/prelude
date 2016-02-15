@@ -52,6 +52,8 @@
 (require 'emms-vlc-config)
 (require 'dired-extension)
 
+(require 'djzhang-web-browser)
+
 ;; osx
 (require 'djzhang-osx)
 
