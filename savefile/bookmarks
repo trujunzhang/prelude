@@ -2,7 +2,22 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("restclient.el"
+(("LocalSettings.php"
+ (filename . "/Applications/MAMP/htdocs/mediawiki/LocalSettings.php")
+ (front-context-string . "e see:\n## https:")
+ (rear-context-string . "age_title) pleas")
+ (position . 919))
+("mediawiki"
+ (filename . "/Applications/MAMP/htdocs/mediawiki/")
+ (front-context-string . "COPYING\n  -rw-r-")
+ (rear-context-string . "19 Dec 21 09:02 ")
+ (position . 256))
+("wikiswift"
+ (filename . "~/Desktop/github/trujunzhang/wikipedia/wikiswift/")
+ (front-context-string . ".DS_Store\n  drwx")
+ (rear-context-string . "48 Feb 15 16:43 ")
+ (position . 271))
+("restclient.el"
  (filename . "~/Desktop/github/trujunzhang/restclient.el/")
  (front-context-string . ".git\n  -rw-r--r-")
  (rear-context-string . "08 Feb 15 09:03 ")
@@ -88,7 +103,7 @@
  (rear-context-string . "29 Jan 24 14:34 ")
  (position . 260))
 ("parse_admin"
- (filename . "/Applications/MAMP/htdocs/parse_admin/")
+ (filename . "/Applications/MAMP/htdocs")
  (front-context-string . "css\n  drwxr-xr-x")
  (rear-context-string . "68 Jan 24 10:41 ")
  (position . 360))

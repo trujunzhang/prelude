@@ -65,8 +65,7 @@
 
 (depends-on "elfeed")
 (depends-on "restclient")
-
-
+(depends-on "pandoc-mode")
 
 
 
