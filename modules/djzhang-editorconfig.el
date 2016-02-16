@@ -48,6 +48,8 @@
 (add-hook 'markdown-mode-hook 'pandoc-mode)
 (add-hook 'pandoc-mode-hook 'pandoc-load-default-settings)
 
+(require 'bookmark+)
+
 (provide 'djzhang-editorconfig)
 
 ;;; djzhang-osx.el ends here

@@ -67,5 +67,7 @@
 (depends-on "restclient")
 (depends-on "pandoc-mode")
 
+(depends-on "bookmark+")
+
 
 
