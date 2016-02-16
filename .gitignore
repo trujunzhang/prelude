@@ -89,3 +89,5 @@ anaconda-mode/
 image-dired/
 
 abbrev_defs
+
+/modules/ *Compiler Input*
