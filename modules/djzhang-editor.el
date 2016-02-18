@@ -82,7 +82,7 @@
  '(ecb-compile-window-height 4)
  '(ecb-tree-buffer-style (quote ascii-guides)))
 
-(setq project-list '("/Users/djzhang/Desktop/wikipedia/apps-android-wikipedia" "/Users/djzhang/.emacs.d"))
+
 
 (defun ecb-custom-set()
   (interactive)
@@ -96,7 +96,8 @@
    ;;'(ecb-layout-window-sizes (quote (("left7" (0.2564102564102564 . 0.6949152542372882) (0.2564102564102564 . 0.23728813559322035)))))
    ;;'(ecb-options-version "2.40")
    ;;'(ecb-source-path (quote ("d:/myRailsProject" "d:/useful scripts")))
-   '(ecb-source-path (quote project-list)) 
+   '(setq project-list '("/Users/djzhang/Desktop/wikipedia/apps-android-wikipedia" "/Users/djzhang/.emacs.d"))
+   '(ecb-source-path (quote 'project-list)) 
    '(ecb-primary-secondary-mouse-buttons (quote mouse-1--C-mouse-1))
    '(ecb-tip-of-the-day nil)
    '(ecb-compile-window-height 4)
