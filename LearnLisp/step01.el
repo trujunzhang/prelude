@@ -20,7 +20,9 @@
 
 (message "The name of this buffer is: %s."  (buffer-name))
 
-(set 'flowers '(rose voilet daisy buttercup))
+(setq flowers '(rose voilet daisy buttercup))
+
+(type-of flowers)
 
 (setq tree '(pine fir oak maple)
       herbivores '(gazelle antelope zebra))
