@@ -55,6 +55,8 @@
 ;; Enable EDE (Project Management) features
 (global-ede-mode 1)
 
+(setq ecb-auto-activate t)
+
 ;; * This enables some tools useful for coding, such as summary mode
 ;;   imenu support, and the semantic navigator
 
@@ -77,10 +79,27 @@
  '(ecb-source-path (quote ("/Users/djzhang/Desktop/github" "/Users/djzhang/.emacs.d"))) 
  '(ecb-primary-secondary-mouse-buttons (quote mouse-1--C-mouse-1))
  '(ecb-tip-of-the-day nil)
+ '(ecb-compile-window-height 4)
  '(ecb-tree-buffer-style (quote ascii-guides)))
 
-
-(setq ecb-compile-window-height 12)
+(defun ecb-custom-set()
+  (interactive)
+  
+  (custom-set-variables
+   ;; custom-set-variables was added by Custom.
+   ;; If you edit it by hand, you could mess it up, so be careful.
+   ;; Your init file should contain only one such instance.
+   ;; If there is more than one, they won't work right.
+   '(ecb-layout-name "left7")
+   ;;'(ecb-layout-window-sizes (quote (("left7" (0.2564102564102564 . 0.6949152542372882) (0.2564102564102564 . 0.23728813559322035)))))
+   ;;'(ecb-options-version "2.40")
+   ;;'(ecb-source-path (quote ("d:/myRailsProject" "d:/useful scripts")))
+   '(ecb-source-path (quote ("/Users/djzhang/Desktop" "/Users/djzhang/.emacs.d"))) 
+   '(ecb-primary-secondary-mouse-buttons (quote mouse-1--C-mouse-1))
+   '(ecb-tip-of-the-day nil)
+   '(ecb-compile-window-height 4)
+   '(ecb-tree-buffer-style (quote ascii-guides)))  
+  )
 
 ;;; activate and deactivate ecb
 (global-set-key (kbd "C-x C-;") 'ecb-activate)
@@ -102,15 +121,19 @@
              (equal 'visible (ecb-compile-window-state)))
     ;;(let ecb-project-path (projectile-get-project-directories))
     (setq ecb-project-path "/User/djzhang/Desktop/github")
-    (ecb-source-path (quote (ecb-project-path)))
+    ;;(ecb-source-path (quote (ecb-project-path)))
     ;;(ecb-add-source-path (projectile-get-project-directories))
+    ;;(ecb-add-source-path (projectile-get-project-directories))
+    (message ecb-add-source-path)
     ))
 
-(global-set-key (kbd "<f9> h") 'ecb-projectile-tree-view)
+(global-set-key (kbd "<f9> h") 'ecb-custom-set)
 ;;(global-set-key (kbd "<f9> h") 'w3m-gohome)
 
 ;;(projectile-get-project-directories)
 
+;;(type-of '(projectile-get-project-directories))
+;;(concat "" '(projectile-get-project-directories))
 
 (provide 'djzhang-editor)
 
