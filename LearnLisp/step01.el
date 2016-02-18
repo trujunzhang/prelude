@@ -61,3 +61,13 @@
 
 (require 'w3m)
 
+
+(projectile-project-info)
+
+(message 'projectile-project-root)
+
+
+(projectile-get-project-directories)
+
+
+

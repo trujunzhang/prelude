@@ -10,7 +10,19 @@
  '(ecb-primary-secondary-mouse-buttons (quote mouse-1--C-mouse-1))
  '(ecb-source-path (quote ("d:/myRailsProject" "d:/useful scripts")))
  '(ecb-tip-of-the-day nil)
- '(ecb-tree-buffer-style (quote ascii-guides)))
+ '(ecb-tree-buffer-style (quote ascii-guides))
+ '(safe-local-variable-values
+   (quote
+    ((eval progn
+           (require
+            (quote projectile))
+           (setq company-clang-arguments
+                 (delete-dups
+                  (append company-clang-arguments
+                          (list
+                           (concat "-I"
+                                   (projectile-project-root)
+                                   "src"))))))))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

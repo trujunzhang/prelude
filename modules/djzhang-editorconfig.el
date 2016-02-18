@@ -50,6 +50,8 @@
 
 (require 'bookmark+)
 
+;; (locate-dominating-file default-directory ".dir-locals.el")
+
 (provide 'djzhang-editorconfig)
 
 ;;; djzhang-osx.el ends here

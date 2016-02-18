@@ -32,13 +32,13 @@
     (position . 268))
 #1=(#("wikipedia-ios-alphas-5.0.0.691" 0 30
       (bmkp-full-record #1#))
-    (filename . "~/Desktop/github/trujunzhang/wikipedia/wikipedia-ios-alphas-5.0.0.691/")
+    (filename . "~/Desktop/wikipedia/wikipedia-ios-alphas-5.0.0.691/")
     (front-context-string . ".DS_Store\n  -rw-")
     (rear-context-string . "48 Feb 13 21:56 ")
     (position . 296))
 #1=(#("apps-android-wikipedia" 0 22
       (bmkp-full-record #1#))
-    (filename . "~/Desktop/github/trujunzhang/wikipedia/apps-android-wikipedia/")
+    (filename . "~/Desktop/wikipedia/apps-android-wikipedia/")
     (front-context-string . ".git\n  -rw-r--r-")
     (rear-context-string . "08 Feb 13 21:40 ")
     (position . 288))
@@ -136,10 +136,13 @@
     (position . 360))
 #1=(#("HelloWorld" 0 10
       (bmkp-full-record #1#))
+    (end-position . 267)
+    (time 22212 32759 343511 0)
+    (visits . 0)
     (filename . "~/Desktop/github/nativeapps/Helloworld/")
     (front-context-string . ".flowconfig\n  -r")
     (rear-context-string . "06 Jan 26 15:23 ")
-    (position . 268))
+    (position . 267))
 #1=(#("IEATTA-APPLE-ANDROID" 0 20
       (bmkp-full-record #1#))
     (filename . "~/Desktop/upwork-projects/IEATTA/IEATTA-APPLE-ANDROID/")

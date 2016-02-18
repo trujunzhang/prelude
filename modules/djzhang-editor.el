@@ -95,7 +95,24 @@
 (global-set-key (kbd "C-#") 'ecb-goto-window-methods)
 (global-set-key (kbd "C-$") 'ecb-goto-window-compilation)
 
+(defun ecb-projectile-tree-view ()
+  "set ecb-source-path by projectile-directories when it is projectile-mode."
+  (interactive)
+  (when (and projectile-mode
+             (equal 'visible (ecb-compile-window-state)))
+    ;;(let ecb-project-path (projectile-get-project-directories))
+    (setq ecb-project-path "/User/djzhang/Desktop/github")
+    (ecb-source-path (quote (ecb-project-path)))
+    ;;(ecb-add-source-path (projectile-get-project-directories))
+    ))
+
+(global-set-key (kbd "<f9> h") 'ecb-projectile-tree-view)
+;;(global-set-key (kbd "<f9> h") 'w3m-gohome)
+
+;;(projectile-get-project-directories)
+
 
 (provide 'djzhang-editor)
 
 ;;; djzhang-editor.el ends here
+
