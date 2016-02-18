@@ -82,7 +82,7 @@
  '(ecb-compile-window-height 4)
  '(ecb-tree-buffer-style (quote ascii-guides)))
 
-(setq project-list '("/Users/djzhang/Desktop" "/Users/djzhang/.emacs.d"))
+(setq project-list '("/Users/djzhang/Desktop/wikipedia/apps-android-wikipedia" "/Users/djzhang/.emacs.d"))
 
 (defun ecb-custom-set()
   (interactive)
