@@ -11,8 +11,7 @@
  '(ecb-primary-secondary-mouse-buttons (quote mouse-1--C-mouse-1))
  '(ecb-source-path
    (quote
-    ("/Users/djzhang/.emacs.d"
-     ("//Users/djzhang/Desktop/wikipedia/apps-android-wikipedia" "/android-wikipedia"))))
+    ("/Users/djzhang/.emacs.d" "/Users/djzhang/Desktop/wikipedia/apps-android-wikipedia")))
  '(ecb-tip-of-the-day nil)
  '(ecb-tree-buffer-style (quote ascii-guides))
  '(safe-local-variable-values
