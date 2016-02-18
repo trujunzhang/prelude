@@ -76,33 +76,31 @@
  ;;'(ecb-layout-window-sizes (quote (("left7" (0.2564102564102564 . 0.6949152542372882) (0.2564102564102564 . 0.23728813559322035)))))
  ;;'(ecb-options-version "2.40")
  ;;'(ecb-source-path (quote ("d:/myRailsProject" "d:/useful scripts")))
- '(ecb-source-path (quote ("/Users/djzhang/Desktop/github" "/Users/djzhang/.emacs.d"))) 
+ '(ecb-source-path (quote ("/Users/djzhang/Desktop/wikipedia/apps-android-wikipedia" "/Users/djzhang/.emacs.d"))) 
  '(ecb-primary-secondary-mouse-buttons (quote mouse-1--C-mouse-1))
  '(ecb-tip-of-the-day nil)
  '(ecb-compile-window-height 4)
  '(ecb-tree-buffer-style (quote ascii-guides)))
 
 
-
-(defun ecb-custom-set()
-  (interactive)
+;; (defun ecb-custom-set()
+;;   (interactive)
   
-  (custom-set-variables
-   ;; custom-set-variables was added by Custom.
-   ;; If you edit it by hand, you could mess it up, so be careful.
-   ;; Your init file should contain only one such instance.
-   ;; If there is more than one, they won't work right.
-   '(ecb-layout-name "left7")
-   ;;'(ecb-layout-window-sizes (quote (("left7" (0.2564102564102564 . 0.6949152542372882) (0.2564102564102564 . 0.23728813559322035)))))
-   ;;'(ecb-options-version "2.40")
-   ;;'(ecb-source-path (quote ("d:/myRailsProject" "d:/useful scripts")))
-   '(setq project-list '("/Users/djzhang/Desktop/wikipedia/apps-android-wikipedia" "/Users/djzhang/.emacs.d"))
-   '(ecb-source-path (quote 'project-list)) 
-   '(ecb-primary-secondary-mouse-buttons (quote mouse-1--C-mouse-1))
-   '(ecb-tip-of-the-day nil)
-   '(ecb-compile-window-height 4)
-   '(ecb-tree-buffer-style (quote ascii-guides)))  
-  )
+;;   (custom-set-variables
+;;    ;; custom-set-variables was added by Custom.
+;;    ;; If you edit it by hand, you could mess it up, so be careful.
+;;    ;; Your init file should contain only one such instance.
+;;    ;; If there is more than one, they won't work right.
+;;    '(ecb-layout-name "left7")
+;;    ;;'(ecb-layout-window-sizes (quote (("left7" (0.2564102564102564 . 0.6949152542372882) (0.2564102564102564 . 0.23728813559322035)))))
+;;    ;;'(ecb-options-version "2.40")
+;;    ;;'(ecb-source-path (quote ("d:/myRailsProject" "d:/useful scripts")))
+;;    '(ecb-source-path (quote ("/Users/djzhang/Desktop/wikipedia/apps-android-wikipedia" "/Users/djzhang/.emacs.d")))
+;;    '(ecb-primary-secondary-mouse-buttons (quote mouse-1--C-mouse-1))
+;;    '(ecb-tip-of-the-day nil)
+;;    '(ecb-compile-window-height 4)
+;;    '(ecb-tree-buffer-style (quote ascii-guides)))  
+;;   )
 
 ;;; activate and deactivate ecb
 (global-set-key (kbd "C-x C-;") 'ecb-activate)
@@ -116,19 +114,6 @@
 (global-set-key (kbd "C-@") 'ecb-goto-window-sources)
 (global-set-key (kbd "C-#") 'ecb-goto-window-methods)
 (global-set-key (kbd "C-$") 'ecb-goto-window-compilation)
-
-(defun ecb-projectile-tree-view ()
-  "set ecb-source-path by projectile-directories when it is projectile-mode."
-  (interactive)
-  (when (and projectile-mode
-             (equal 'visible (ecb-compile-window-state)))
-    ;;(let ecb-project-path (projectile-get-project-directories))
-    (setq ecb-project-path "/User/djzhang/Desktop/github")
-    ;;(ecb-source-path (quote (ecb-project-path)))
-    ;;(ecb-add-source-path (projectile-get-project-directories))
-    ;;(ecb-add-source-path (projectile-get-project-directories))
-    (message ecb-add-source-path)
-    ))
 
 (global-set-key (kbd "<f9> h") 'ecb-custom-set)
 ;;(global-set-key (kbd "<f9> h") 'w3m-gohome)
