@@ -68,6 +68,7 @@
 (depends-on "pandoc-mode")
 
 (depends-on "bookmark+")
+(depends-on "helm-dash")
 
 
 
