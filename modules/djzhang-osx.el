@@ -57,7 +57,10 @@
 (require 'desktop)
 (desktop-save-mode 1)
 
-(require 'plantuml-mode)
+;; https://github.com/skuro/puml-mode
+;; Enable puml-mode for PlantUML files
+(add-to-list 'auto-mode-alist '("\\.puml\\'" . puml-mode))
+(add-to-list 'auto-mode-alist '("\\.plantuml\\'" . puml-mode))
 
 (provide 'djzhang-osx)
 
