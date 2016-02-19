@@ -81,6 +81,7 @@ crashlytics-build.properties
 *.lisp-temp
 
 eproject.lst
+/.emacs.desktop.lock
 ac-comphist.dat
 
 emacs-for-python/
