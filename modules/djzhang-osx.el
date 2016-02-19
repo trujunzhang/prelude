@@ -39,24 +39,25 @@
 ;; Watching YouTube without a browser
 ;; http://jordiinglada.net/wp/2013/08/09/watching-youtube-without-a-browser-2/
 
-(defun play-youtube-video (url)  
-  (interactive "sURL: ")  
-  (shell-command
-   (concat "youtube-dl  -o - " url " | vlc -")))
+;; (defun play-youtube-video (url)  
+;;   (interactive "sURL: ")  
+;;   (shell-command
+;;    (concat "youtube-dl  -o - " url " | vlc -")))
 
 ;; (global-set-key (kbd "<f9> Y") 'play-youtube-video)
 
-(defun w3m-play-youtube-video ()  
-  (interactive)  
-  (play-youtube-video
-   (w3m-print-this-url (point))))
+;; (defun w3m-play-youtube-video ()  
+;;   (interactive)  
+;;   (play-youtube-video
+;;    (w3m-print-this-url (point))))
 
-(global-set-key (kbd "<f9> y") 'w3m-play-youtube-video)
+;; (global-set-key (kbd "<f9> y") 'w3m-play-youtube-video)
 
 ;; https://www.emacswiki.org/emacs?action=edit;id=Desktop
 (require 'desktop)
 (desktop-save-mode 1)
 
+(require 'plantuml-mode)
 
 (provide 'djzhang-osx)
 

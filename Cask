@@ -51,7 +51,7 @@
 
 ;; java
 (depends-on "jdee")
-
+(depends-on "plantuml-mode")
 
 ;; web
 (depends-on "emmet-mode")

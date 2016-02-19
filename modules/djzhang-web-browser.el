@@ -42,6 +42,7 @@
 (setq elfeed-feeds
       '(("http://nullprogram.com/feed/" blog emacs)
         "http://www.50ply.com/atom.xml"  ; no autotagging
+        "http://plantuml.sourceforge.net/qa/?qa=feed/activity.rss"
         ))
 
 
