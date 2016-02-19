@@ -3,7 +3,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(bmkp-last-as-first-bookmark-file "~/.emacs.d/savefile/bookmarks")
+ '(bmkp-last-as-first-bookmark-file "/Users/djzhang/.emacs.d/savefile/bookmarks")
  '(ecb-compile-window-height 4)
  '(ecb-layout-name "left7")
  '(ecb-layout-window-sizes nil)
@@ -14,6 +14,10 @@
     ("/Users/djzhang/.emacs.d" "/Users/djzhang/Desktop/wikipedia/apps-android-wikipedia" "/Users/djzhang/Desktop/wikipedia/wikiswift" "/Users/djzhang/Desktop/upwork-projects/IEATTA/IEATTA-APPLE-ANDROID")))
  '(ecb-tip-of-the-day nil)
  '(ecb-tree-buffer-style (quote ascii-guides))
+ '(mediawiki-site-alist
+   (quote
+    (("djzhangwiki" "http://localhost:8888/mediawiki/" "" "" "" "Main Page"))))
+ '(mediawiki-site-default "djzhangwiki")
  '(safe-local-variable-values
    (quote
     ((eval progn

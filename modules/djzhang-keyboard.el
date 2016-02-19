@@ -33,6 +33,7 @@
 ;;; Code:
 
 (global-set-key (kbd "<f9> h") 'w3m-gohome)
+(global-set-key (kbd "<f9> b") 'w3m-bookmark-view)
 
 (provide 'djzhang-keyboard)
 

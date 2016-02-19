@@ -115,9 +115,6 @@
 (global-set-key (kbd "C-#") 'ecb-goto-window-methods)
 (global-set-key (kbd "C-$") 'ecb-goto-window-compilation)
 
-(global-set-key (kbd "<f9> h") 'ecb-custom-set)
-;;(global-set-key (kbd "<f9> h") 'w3m-gohome)
-
 ;;(projectile-get-project-directories)
 
 ;;(type-of '(projectile-get-project-directories))
