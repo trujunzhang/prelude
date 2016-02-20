@@ -2,7 +2,25 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("LocalSettings.php" 0 17
+(#1=(#("seleniumcrawler" 0 15
+      (bmkp-full-record #1#))
+    (buffer-name . "seleniumcrawler")
+    (front-context-string . ".git\n  -rw-r--r-")
+    (rear-context-string . "08 Feb 20 10:51 ")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(22215 54472 109284 0))
+    (created . #2#)
+    (position . 270)
+    (filename . "/Users/djzhang/Desktop/github/javascriptapps/seleniumcrawler/")
+    (dired-directory . "~/Desktop/github/javascriptapps/seleniumcrawler/")
+    (dired-marked)
+    (dired-switches . "-al")
+    (dired-subdirs)
+    (dired-hidden-dirs)
+    (handler . bmkp-jump-dired))
+#1=(#("LocalSettings.php" 0 17
       (bmkp-full-record #1#))
     (filename . "/Applications/MAMP/htdocs/mediawiki/LocalSettings.php")
     (front-context-string . "e see:\n## https:")
@@ -138,10 +156,13 @@
     (position . 266))
 #1=(#("todo" 0 4
       (bmkp-full-record #1#))
+    (end-position . 259)
+    (time 22215 56358 706868 0)
+    (visits . 0)
     (filename . "~/Desktop/github/javascriptapps/todo/")
     (front-context-string . ".bowerrc\n  -rw-r")
     (rear-context-string . "29 Jan 24 14:34 ")
-    (position . 260))
+    (position . 259))
 #1=(#("parse_admin" 0 11
       (bmkp-full-record #1#))
     (filename . "/Applications/MAMP/htdocs")

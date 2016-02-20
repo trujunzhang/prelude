@@ -48,6 +48,8 @@
 (depends-on "django-manage")
 (depends-on "django-mode")
 (depends-on "django-snippets")
+;; Python auto-completion for Emacs
+(depends-on "company-jedi")
 
 ;; java
 (depends-on "jdee")
