@@ -4,7 +4,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(bmkp-last-as-first-bookmark-file "/Users/djzhang/.emacs.d/savefile/bookmarks")
- '(ecb-compile-window-height 4)
+ '(desktop-path (quote ("~/.emacs.d/")))
+ '(ecb-compile-window-height 14)
  '(ecb-layout-name "left7")
  '(ecb-layout-window-sizes nil)
  '(ecb-options-version "2.40")
@@ -14,9 +15,10 @@
     ("/Users/djzhang/.emacs.d" "/Users/djzhang/Desktop/wikipedia/apps-android-wikipedia" "/Users/djzhang/Desktop/wikipedia/wikiswift" "/Users/djzhang/Desktop/upwork-projects/IEATTA/IEATTA-APPLE-ANDROID")))
  '(ecb-tip-of-the-day nil)
  '(ecb-tree-buffer-style (quote ascii-guides))
+ '(mediawiki-debug t)
  '(mediawiki-site-alist
    (quote
-    (("djzhangwiki" "http://localhost:8888/mediawiki/" "" "" "" "Main Page"))))
+    (("djzhangwiki" "http://localhost:8888/mediawiki/" "trujunzhang" "wanghao720" "" "Main Page"))))
  '(mediawiki-site-default "djzhangwiki")
  '(safe-local-variable-values
    (quote

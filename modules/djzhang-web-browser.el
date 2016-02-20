@@ -48,6 +48,10 @@
 
 (setf url-queue-timeout 30)
 
+(add-to-list 'auto-mode-alist '("\\.rest\\'" . restclient-mode))
+
+;;(add-to-list 'auto-mode-alist '("\\.rest\\" 'restclient-mode))
+
 
 (provide 'djzhang-web-browser)
 

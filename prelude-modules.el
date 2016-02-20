@@ -46,6 +46,7 @@
 (require 'djzhang-editor)
 (require 'djzhang-editorconfig)
 (require 'djzhang-python)
+(require 'djzhang-java)
 
 ;; https://github.com/thierryvolpiatto/emacs-tv-config
 (require 'config-w3m)
