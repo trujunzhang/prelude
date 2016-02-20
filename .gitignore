@@ -83,6 +83,7 @@ crashlytics-build.properties
 eproject.lst
 /.emacs.desktop.lock
 ac-comphist.dat
+/.python-environments
 
 emacs-for-python/
 anaconda-mode/
