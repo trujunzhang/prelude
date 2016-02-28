@@ -12,7 +12,7 @@
  '(ecb-primary-secondary-mouse-buttons (quote mouse-1--C-mouse-1))
  '(ecb-source-path
    (quote
-    ("/Users/djzhang/.emacs.d" "/Users/djzhang/Desktop/wikipedia/apps-android-wikipedia" "/Users/djzhang/Desktop/wikipedia/wikiswift" "/Users/djzhang/Desktop/upwork-projects/IEATTA/IEATTA-APPLE-ANDROID")))
+    ("/Users/djzhang/.emacs.d" "/Users/djzhang/Desktop/wikipedia/apps-android-wikipedia" "/Users/djzhang/Desktop/wikipedia/wikiswift" "/Users/djzhang/Desktop/upwork-projects/IEATTA/IEATTA-APPLE-ANDROID" "/Users/djzhang/Desktop/github")))
  '(ecb-tip-of-the-day nil)
  '(ecb-tree-buffer-style (quote ascii-guides))
  '(mediawiki-debug t)
@@ -20,6 +20,7 @@
    (quote
     (("djzhangwiki" "http://localhost:8888/mediawiki/" "trujunzhang" "wanghao720" "" "Main Page"))))
  '(mediawiki-site-default "djzhangwiki")
+ '(org-agenda-files (quote ("~/.emacs.d/LearnLisp/org-mode/tutor01.org")))
  '(safe-local-variable-values
    (quote
     ((eval progn
