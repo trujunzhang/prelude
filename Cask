@@ -72,5 +72,9 @@
 (depends-on "bookmark+")
 (depends-on "helm-dash")
 
+(depends-on "matlab-mode")
+
+
+
 
 
