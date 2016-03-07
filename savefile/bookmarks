@@ -1,0 +1,23 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(#1=(#("Up_and_Running_with_AngularJS " 0 30
+      (bmkp-full-record #1#))
+    (buffer-name . "Up_and_Running_with_AngularJS ")
+    (front-context-string . ".DS_Store\n  -rw-")
+    (rear-context-string . "48 Mar  7 11:21 ")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 1)
+    (time 22236 64237 555413 0)
+    (created 22236 64225 762870 0)
+    (position . 327)
+    (filename . #2="/Applications/MAMP/htdocs/Tutorial-Courses/gulp-bower-bootstrap-fontawesome/learn-scss/Up_and_Running_with_AngularJS /")
+    (dired-directory . #2#)
+    (dired-marked)
+    (dired-switches . "-al")
+    (dired-subdirs)
+    (dired-hidden-dirs)
+    (handler . bmkp-jump-dired))
+)
