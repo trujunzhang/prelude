@@ -43,13 +43,13 @@
 ;; python-ide
 (depends-on "pyenv-mode")
 (depends-on "pyenv-mode-auto")
-(depends-on "celery")
-(depends-on "python-django")
-(depends-on "django-manage")
-(depends-on "django-mode")
-(depends-on "django-snippets")
+;;(depends-on "celery")
+;;(depends-on "python-django")
+;;(depends-on "django-manage")
+;;(depends-on "django-mode")
+;;(depends-on "django-snippets")
 ;; Python auto-completion for Emacs
-(depends-on "company-jedi")
+;;(depends-on "company-jedi")
 
 ;; java
 (depends-on "jdee")
@@ -72,7 +72,7 @@
 (depends-on "bookmark+")
 (depends-on "helm-dash")
 
-(depends-on "matlab-mode")
+;; (depends-on "matlab-mode")
 
 
 
