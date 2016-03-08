@@ -1,3 +1,4 @@
+
 ;;; Uncomment the modules you'd like to use and restart Prelude afterwards
 
 ;; Emacs IRC client
@@ -58,4 +59,5 @@
 
 ;; osx
 (require 'djzhang-osx)
+(require 'djzhang-desktop)
 

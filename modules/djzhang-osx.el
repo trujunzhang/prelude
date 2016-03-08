@@ -53,9 +53,6 @@
 
 ;; (global-set-key (kbd "<f9> y") 'w3m-play-youtube-video)
 
-;; https://www.emacswiki.org/emacs?action=edit;id=Desktop
-(require 'desktop)
-(desktop-save-mode 1)
 
 ;; https://github.com/skuro/puml-mode
 ;; Enable puml-mode for PlantUML files

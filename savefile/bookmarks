@@ -2,7 +2,25 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("Up_and_Running_with_AngularJS" 0 29
+(#1=(#("Real.Time.Web.Apps.With.AngularJS.and.Firebase" 0 46
+      (bmkp-full-record #1#))
+    (buffer-name . "Real.Time.Web.Apps.With.AngularJS.and.Firebase")
+    (front-context-string)
+    (rear-context-string . "Mar  8 20:09 ..\n")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(22238 51801 186957 0))
+    (created . #2#)
+    (position . 288)
+    (filename . #3="/Applications/MAMP/htdocs/Tutorial-Courses/gulp-bower-bootstrap-fontawesome/learn-scss/Real.Time.Web.Apps.With.AngularJS.and.Firebase/")
+    (dired-directory . #3#)
+    (dired-marked)
+    (dired-switches . "-al")
+    (dired-subdirs)
+    (dired-hidden-dirs)
+    (handler . bmkp-jump-dired))
+#1=(#("Up_and_Running_with_AngularJS" 0 29
       (bmkp-full-record #1#))
     (buffer-name . "Up_and_Running_with_AngularJS")
     (front-context-string . "index.html\n  drw")
