@@ -1,6 +1,0 @@
-# -*- mode: snippet; require-final-newline: nil -*-
-# name: modules
-# key: smd
-# binding: direct-keybinding
-# --
-@modules "$0";

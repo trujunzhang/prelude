@@ -1,5 +1,0 @@
-# key: un
-# name: using namespace
-# condition: (yas/bol?)
-# --
-using namespace $0;

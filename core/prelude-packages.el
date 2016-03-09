@@ -1,6 +1,6 @@
 ;;; prelude-packages.el --- Emacs Prelude: default package selection.
 ;;
-;; Copyright © 2011-2015 Bozhidar Batsov
+;; Copyright © 2011-2016 Bozhidar Batsov
 ;;
 ;; Author: Bozhidar Batsov <bozhidar@batsov.com>
 ;; URL: https://github.com/bbatsov/prelude
@@ -62,6 +62,7 @@
     god-mode
     grizzl
     guru-mode
+    imenu-anywhere
     ov
     projectile
     magit
@@ -73,8 +74,17 @@
     undo-tree
     volatile-highlights
     zenburn-theme
-    ag
-    zop-to-char)
+    zop-to-char
+    ;; The following packages used by djzhang.
+    rvm
+    emmet-mode
+    ecb
+    real-auto-save
+    multiple-cursors
+    elfeed
+    restclient
+    pandoc-mode
+    editorconfig)
   "A list of packages to ensure are installed at launch.")
 
 (defun prelude-packages-installed-p ()

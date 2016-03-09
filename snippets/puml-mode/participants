@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: participant
-# key: part
-# --
-
-$0 ->n $1 #red :text
-' comment

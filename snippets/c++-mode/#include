@@ -1,5 +1,0 @@
-# key: in
-# name: #include <...>
-# condition: (yas/bol?)
-# --
-#include <$0>

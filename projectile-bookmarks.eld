@@ -1,0 +1,1 @@
+("/Applications/MAMP/htdocs/Tutorial-Courses/gulp-bower-bootstrap-fontawesome/" "~/.emacs.d/" "~/.emacs.d.prelude/")

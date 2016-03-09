@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: ert-deftest
-# key: ert
-# condition: (yas/bol?)
-# --
-(ert-deftest ${1:test-name} ()
-  (should (equal $0)))

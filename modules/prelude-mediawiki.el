@@ -1,6 +1,6 @@
 ;;; prelude-mediawiki.el --- Emacs Prelude: mediawiki editing config
 ;;
-;; Copyright © 2011-2015 Bozhidar Batsov
+;; Copyright © 2011-2016 Bozhidar Batsov
 ;;
 ;; Author: Bozhidar Batsov <bozhidar@batsov.com>
 ;; URL: https://github.com/bbatsov/prelude
@@ -36,11 +36,11 @@
 
 (eval-after-load 'mediawiki
   '(progn
-     (setq mediawiki-site-alist '(
-                                  ("djzhangwiki" "http:/http://localhost:8888/mediawiki" "" "" "Main Page")))
+     (setq mediawiki-site-alist '(("Wikipedia" "http://en.wikipedia.org/w" "" "" "Main Page")
+                                  ("WikEmacs" "http://wikemacs.org/w/" "" "" "Main Page")))
 
      ;; Emacs users care more for WikEmacs than Wikipedia :-)
-     (setq mediawiki-site-default "djzhangwiki")))
+     (setq mediawiki-site-default "WikEmacs")))
 
 (provide 'prelude-mediawiki)
 

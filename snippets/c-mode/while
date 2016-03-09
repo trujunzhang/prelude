@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# name: while
-# key: wh
-# condition: (yas/bol?)
-# --
-while (${1:condition})
-{
-    $0
-}
