@@ -84,7 +84,8 @@
     elfeed
     restclient
     pandoc-mode
-    editorconfig)
+    editorconfig
+    angular-mode)
   "A list of packages to ensure are installed at launch.")
 
 (defun prelude-packages-installed-p ()
