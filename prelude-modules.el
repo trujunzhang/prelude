@@ -45,4 +45,5 @@
 (require 'djzhang-desktop)
 (require 'djzhang-ecb)
 (require 'djzhang-mkdown)
+(require 'djzhang-mathematica)
 

@@ -85,7 +85,8 @@
     restclient
     pandoc-mode
     editorconfig
-    angular-mode)
+    angular-mode
+    wolfram-mode)
   "A list of packages to ensure are installed at launch.")
 
 (defun prelude-packages-installed-p ()
