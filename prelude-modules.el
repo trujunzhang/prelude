@@ -46,4 +46,5 @@
 (require 'djzhang-ecb)
 (require 'djzhang-mkdown)
 (require 'djzhang-mathematica)
+(require 'djzhang-mediawiki)
 

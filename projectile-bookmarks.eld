@@ -1,1 +1,1 @@
-("/Applications/MAMP/htdocs/Tutorial-Courses/gulp-bower-bootstrap-fontawesome/" "/Applications/MAMP/htdocs/mediawiki/" "~/.emacs.d/" "~/.emacs.d.prelude/")
+("~/.emacs.d/" "/Applications/MAMP/htdocs/Tutorial-Courses/gulp-bower-bootstrap-fontawesome/" "/Applications/MAMP/htdocs/mediawiki/" "~/.emacs.d.prelude/")
