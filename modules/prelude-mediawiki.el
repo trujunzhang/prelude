@@ -37,7 +37,7 @@
 (eval-after-load 'mediawiki
   '(progn
      (setq mediawiki-site-alist '(
-                                  ("djzhangWiki" "http://localhost:8888/mediawiki" "trujunzhang" "wanghao720" "" "Main Page")
+                                  ("djzhangWiki" "http://localhost:8888/mediawiki/" "trujunzhang" "wanghao720" "" "Main Page")
                                   ))
 
      ;; Emacs users care more for WikEmacs than Wikipedia :-)

@@ -8,6 +8,10 @@
  '(ecb-options-version "2.40")
  '(ecb-tip-of-the-day nil)
  '(ecb-version-check nil)
+ '(mediawiki-debug t)
+ '(mediawiki-site-alist
+   (quote
+    (("djzhangWiki" "http://localhost:8888/mediawiki/" "trujunzhang" "wanghao720" "" "Main Page"))))
  '(prelude-whitespace nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
